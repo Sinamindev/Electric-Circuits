@@ -1,0 +1,127 @@
+
+Circuit #1
+
+Welcome to Electric Circuit Processing by Sina Amini. 
+This program will help analyze direct current circuits configured in parallel. 
+Please enter the voltage of the entire circuit in volts: 24.0
+Enter the power of 4 devices (watts) separated by space and press enter: 5.0 8.0 2.0 6.0
+Thank you. The computations have completed with the following results 
+
+Circuit total voltage: 24.000000000000000000 
+Device number		1			2			3	4 
+Power (watts): 5.000000000000000000 8.000000000000000000 2.000000000000000000 6.000000000000000000
+Current (amps): 0.208333333333333343 0.333333333333333315 0.083333333333333329 0.250000000000000000
+
+Total current in the circuits is 0.875000000000000000 amps.
+Total power in the circuit is 21.000000000000000000 watts.
+The analyzer program will now return the total power to the driver. 
+
+
+Circuit #2
+
+Welcome to Electric Circuit Processing by Sina Amini. 
+This program will help analyze direct current circuits configured in parallel. 
+Please enter the voltage of the entire circuit in volts: 120.0
+Enter the power of 4 devices (watts) separated by space and press enter: 32.0 60.0 75.0 40.0
+Thank you. The computations have completed with the following results 
+
+Circuit total voltage: 120.000000000000000000 
+Device number		1			2			3	4 
+Power (watts): 32.000000000000000000 60.000000000000000000 75.000000000000000000 40.000000000000000000
+Current (amps): 0.266666666666666663 0.500000000000000000 0.625000000000000000 0.333333333333333315
+
+Total current in the circuits is 1.724999999999999867 amps.
+Total power in the circuit is 207.000000000000000000 watts.
+The analyzer program will now return the total power to the driver. 
+
+
+Circuit #3
+
+Welcome to Electric Circuit Processing by Sina Amini. 
+This program will help analyze direct current circuits configured in parallel. 
+Please enter the voltage of the entire circuit in volts: 133.5 
+Enter the power of 4 devices (watts) separated by space and press enter: 50.0 90.0 75.0 0.0
+Thank you. The computations have completed with the following results 
+
+Circuit total voltage: 133.500000000000000000 
+Device number		1			2			3	4 
+Power (watts): 50.000000000000000000 90.000000000000000000 75.000000000000000000 0.000000000000000000
+Current (amps): 0.374531835205992536 0.674157303370786498 0.561797752808988804 0.000000000000000000
+
+Total current in the circuits is 1.610486891385767727 amps.
+Total power in the circuit is 215.000000000000000000 watts.
+The analyzer program will now return the total power to the driver. 
+
+
+Circuit #4
+
+Welcome to Electric Circuit Processing by Sina Amini. 
+This program will help analyze direct current circuits configured in parallel. 
+Please enter the voltage of the entire circuit in volts: 1120.0
+Enter the power of 4 devices (watts) separated by space and press enter: 62.55 25.58 25.93 75.28
+Thank you. The computations have completed with the following results 
+
+Circuit total voltage: 1120.000000000000000000 
+Device number		1			2			3	4 
+Power (watts): 62.549999999999997158 25.579999999999998295 25.929999999999999716 75.280000000000001137
+Current (amps): 0.055848214285714286 0.022839285714285711 0.023151785714285715 0.067214285714285713
+
+Total current in the circuits is 0.169053571428571414 amps.
+Total power in the circuit is 189.340000000000003411 watts.
+The analyzer program will now return the total power to the driver. 
+
+
+Circuit #5
+
+Welcome to Electric Circuit Processing by Sina Amini. 
+This program will help analyze direct current circuits configured in parallel. 
+Please enter the voltage of the entire circuit in volts: 480.0
+Enter the power of 4 devices (watts) separated by space and press enter: 150.3 120.3 140.3 12.3
+Thank you. The computations have completed with the following results 
+
+Circuit total voltage: 480.000000000000000000 
+Device number		1			2			3	4 
+Power (watts): 150.300000000000011369 120.299999999999997158 140.300000000000011369 12.300000000000000711
+Current (amps): 0.313125000000000042 0.250624999999999987 0.292291666666666672 0.025625000000000002
+
+Total current in the circuits is 0.881666666666666599 amps.
+Total power in the circuit is 423.200000000000045475 watts.
+The analyzer program will now return the total power to the driver. 
+
+
+Circuit #6
+
+Welcome to Electric Circuit Processing by Sina Amini. 
+This program will help analyze direct current circuits configured in parallel. 
+Please enter the voltage of the entire circuit in volts: 24.4
+Enter the power of 4 devices (watts) separated by space and press enter: 8.2 9.5 3.6 4.75
+Thank you. The computations have completed with the following results 
+
+Circuit total voltage: 24.399999999999998579 
+Device number		1			2			3	4 
+Power (watts): 8.199999999999999289 9.500000000000000000 3.600000000000000089 4.750000000000000000
+Current (amps): 0.336065573770491788 0.389344262295082011 0.147540983606557402 0.194672131147541005
+
+Total current in the circuits is 1.067622950819672401 amps.
+Total power in the circuit is 26.049999999999997158 watts.
+The analyzer program will now return the total power to the driver. 
+
+
+Circuit #7
+
+Welcome to Electric Circuit Processing by Sina Amini. 
+This program will help analyze direct current circuits configured in parallel. 
+Please enter the voltage of the entire circuit in volts: 27.7
+Enter the power of 4 devices (watts) separated by space and press enter: 2.55 3.72 1.884 9.079
+Thank you. The computations have completed with the following results 
+
+Circuit total voltage: 27.699999999999999289 
+Device number		1			2			3	4 
+Power (watts): 2.549999999999999822 3.720000000000000195 1.883999999999999897 9.079000000000000625
+Current (amps): 0.092057761732851975 0.134296028880866447 0.068014440433212989 0.327761732851985566
+
+Total current in the circuits is 0.622129963898916949 amps.
+Total power in the circuit is 17.233000000000000540 watts.
+The analyzer program will now return the total power to the driver. 
+
+
