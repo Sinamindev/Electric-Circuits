@@ -2,7 +2,6 @@
 //Author information
 //  Author name: Sina Amini
 //  Author email: sinamindev@gmail.com
-//  Author location: CSUF
 //Project information
 //  Project title: Electric Circuits in Parallel
 //  Purpose: Compute the power and current of a circuit after user inputs voltage and power consumption of 4 devices in volts
