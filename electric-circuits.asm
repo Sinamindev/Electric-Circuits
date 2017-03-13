@@ -1,6 +1,6 @@
 ;========1=========2=========3=========4=========5=========6=========7=========8=========9=========0=========1=========2=========3=========4=========5=========6=========7**
 ;Author information
-;  Author name: Sina Amini	
+;  Author name: Sina Amini  
 ;  Author email: sinamindev@gmail.com
 ;Project information
 ;  Title: Electric Circuits in Parallel
@@ -47,7 +47,7 @@ promptsuccess db "Thank you. The computations have completed with the following 
 
 outputvoltage db "Circuit total voltage: %1.18lf ", 10, 0
 
-outputdevicenum db "Device number		1			2			3			4 ",10, 0
+outputdevicenum db "Device number       1           2           3           4 ",10, 0
 
 outputwatts db "Power (watts): %1.18lf %1.18lf %1.18lf %1.18lf",10, 0
 
@@ -235,13 +235,13 @@ mov        rdi, stringformat                                ;Prepare printf for 
 mov        rsi, promptsuccess                               ;"Thank you. The computations have completed with the following results" 
 call       printf                                           ;Call a library function to do the hard work
 
-movsd 	   xmm0, xmm13
+movsd      xmm0, xmm13
 mov        rax, 1                                           ;1 floating point numbers will be outputted
 mov        rdi, outputvoltage                               ;"Circuit total voltage: %1.18lf"
 call       printf                                           ;Call a library function to do the hard work
 
 mov        rax, 0                                           ;0 floating point numbers will be outputted
-mov        rdi, outputdevicenum                              ;"		1			2			3			4 "
+mov        rdi, outputdevicenum                             ;"      1           2           3           4 "
 call       printf                                           ;Call a library function to do the hard work
 
 
@@ -265,9 +265,9 @@ pop rax
 movsd xmm3, [rsp]
 pop rax
 
-mov rax, 4			                            ;4 floating point numbers will be outputted
+mov rax, 4                                                  ;4 floating point numbers will be outputted
 mov rdi, outputwatts
-call printf						    ;Call a library function to do the hard work
+call printf                                                 ;Call a library function to do the hard work
 
 ;==== Move voltage onto the stack four times for division  ================================================================================================================
 
@@ -297,7 +297,7 @@ pop rax
 movsd xmm3, [rsp]
 pop rax
 
-mov rax, 4			                            ;4 floating point numbers will be outputted
+mov rax, 4                                      ;4 floating point numbers will be outputted
 mov rdi, outputamps
 call printf
 
@@ -318,9 +318,9 @@ call       printf                                           ;Call a library func
 
 
 ;==== compute total power in the circuit ==================================================================================================================================
-vhaddpd ymm13, ymm15, ymm15				    ;add values within ymm15 together and store them in ymm13
-vextractf128 xmm12, ymm13, 1				    ;extracts first two values from ymm13 and places them in xmm12
-addsd xmm12, xmm13					    ;adds values from xmm13 and xmm12 together and stores them into xmm12
+vhaddpd ymm13, ymm15, ymm15                                 ;add values within ymm15 together and store them in ymm13
+vextractf128 xmm12, ymm13, 1                                ;extracts first two values from ymm13 and places them in xmm12
+addsd xmm12, xmm13                                          ;adds values from xmm13 and xmm12 together and stores them into xmm12
 vmovupd ymm15, ymm12
 movsd xmm0, xmm15
 
